@@ -1,0 +1,94 @@
+html{
+    background-image: url("./assets/kk.jpg");
+    /* font-size: 200px; */
+    
+}
+body{
+    height: 100%;
+}
+.join-create-container{
+    font-weight: bolder;
+    color: white;
+    /* -webkit-text-stroke:0.5px #fff; */
+    /* text-shadow: 2px 0 #fff; */
+    font-size: 15px;
+    border: solid black 2px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30vh;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+    backdrop-filter: brightness(25%)
+}
+.btn-container{
+    
+    margin: auto;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+    /* .join-room{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 100%;
+    }
+    .create-room{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 100%;
+    }
+    .join-room > input{
+        width: fit-content;
+    } */
+
+.input-roomcode{
+
+    margin: 10px 40px;
+    margin-bottom: 10px;
+    
+    background-color: transparent;
+    backdrop-filter: blur(200px);
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    border: 2px solid white;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.join-btn{
+    font-family:cursive;
+    color: white;
+    background-color:#CF0F47 ;
+    margin-left: 30px;
+    height: 40px;
+    border-radius: 10px;
+    width: 40%;
+}
+.create-btn{
+    font-family: cursive    ;
+    background-color:#CF0F47 ;
+    color: white;
+    margin-right: 30px;
+    height: 40px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.join-btn:hover{
+    background-color: black;
+}
+.create -btn:hover{
+    background-color: black;
+}

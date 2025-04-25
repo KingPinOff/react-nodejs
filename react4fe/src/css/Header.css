@@ -1,0 +1,14 @@
+.header{
+display: flex;
+margin: auto;
+margin-top: 70px;
+width: calc(80vw + 10px);
+height: 6vh;
+background-color: black;
+color: white;
+align-items: center;
+justify-content: center;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+margin-bottom: 0;
+}
