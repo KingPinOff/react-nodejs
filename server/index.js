@@ -31,7 +31,7 @@ app.get(/(.*)/, (req, res) => {
 const io = new Server(server,
     {
         cors: {
-            origin: "http://localhost:5173",
+            origin: "*",
             methods : ['GET','POST']
         }
     }       
@@ -62,7 +62,7 @@ io.on("connection",(socket)=>{
         if(x){
             socket.join(data.roomcode)
             socket.emit("room-joined",data.roomcode)
-            // console.log(`Broadcasting joined message in room: ${data.roomcode}`);
+            console.log(`Broadcasting joined message in room: ${data.roomcode}`);
 
             socket.to(data.roomcode).emit("receive-alert",{
                 type :"alert",content: `A new user ${data.username}  joined the room`
@@ -97,5 +97,4 @@ io.on("connection",(socket)=>{
 })
 
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+server.listen(3000, () => console.log(`Server running on port `));
