@@ -159,9 +159,12 @@ flex-direction: row;
       border:0em
 
 }
-#sendBtn:hover {
-  background-color: white ;
 
+@media (hover: hover) and (pointer: fine) {
+  #sendBtn:hover {
+    background-color: white ;
+  
+  }cd 
 }
 @media (max-width : 550px) {
   html{
