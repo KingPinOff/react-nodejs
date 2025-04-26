@@ -71,8 +71,7 @@ flex-direction: row;
 .msg {
   
   background-color: #161179;
-  margin: 3px 10px;
-  margin-bottom: 5px;
+  margin: 8.5px 10px 6px;
   min-height: 5%;
   padding: 10px;
   max-width: 60%;
@@ -93,7 +92,7 @@ flex-direction: row;
 }
 .typing{
   background-color: #161179;
-  margin: 3px 10px;
+  margin: 8.5px 10px 6px;
   margin-bottom: 5px;
   min-height: 5%;
   padding: 10px;
@@ -164,7 +163,7 @@ flex-direction: row;
   #sendBtn:hover {
     background-color: white ;
   
-  }cd 
+  }
 }
 @media (max-width : 550px) {
   html{
